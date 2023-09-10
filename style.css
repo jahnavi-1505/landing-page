@@ -113,3 +113,15 @@ footer {
     background-color: black;
     text-align: center;
 }
+@media only screen and (max-width: 600px) {
+    .main {
+        flex-direction: column;
+    }
+    .cont0 {
+        flex-direction: column;
+    }
+    .container {
+        flex-direction: column;
+    }
+}
+
